@@ -1,9 +1,30 @@
 import requests as r
 import re
 import json
+import argparse
 from decimal import *
 from bs4 import BeautifulSoup
-from config import response_url, answer_key_url
+
+# Command line arguments.
+response_url = None
+answer_key_url = None
+cmd_parser = argparse.ArgumentParser(
+    description="Parses candidate's response sheet, calculates marks, and stores results as JSON.")
+cmd_parser.add_argument(
+    '-r', '--response', help="Candidate's response key URL.", dest='response_url')
+cmd_parser.add_argument(
+    '-k', '--key', help="Answer key URL.", dest='answer_key_url')
+args = cmd_parser.parse_args()
+
+response_url = args.response_url
+answer_key_url = args.answer_key_url
+
+if(response_url == None):
+    response_url = input('Enter Response Sheet URL: ')
+if(answer_key_url == None):
+    answer_key_url = input('Enter Answer Key URL: ')
+print(response_url)
+print(answer_key_url)
 
 # Get the response sheet
 candidate_response = BeautifulSoup(r.get(response_url).text, 'html.parser')
@@ -20,7 +41,7 @@ sections = candidate_response.find_all('div', {'class': 'section-lbl'})
 ans_key_response = BeautifulSoup(r.get(answer_key_url).text, 'html.parser')
 ans_table = ans_key_response.find_all('td')
 
-# TODO: Command line arguments.
+
 '''
 Parses the candidate response page
 On successful parsing, it returns a list(65), 
