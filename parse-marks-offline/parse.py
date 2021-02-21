@@ -15,11 +15,12 @@ cmd_parser.add_argument(
     '-r', '--response', help="Candidate's response key URL.", dest='response_url')
 cmd_parser.add_argument(
     '-k', '--key', help="Answer key URL.", dest='answer_key_url')
+cmd_parser.add_argument('-o', help="Print output to file.", dest="file_name")
 args = cmd_parser.parse_args()
 
 response_url = args.response_url
 answer_key_url = args.answer_key_url
-
+file_name = args.file_name
 if(response_url == None):
     response_url = input('Enter Response Sheet URL: ')
 if(answer_key_url == None):
@@ -97,14 +98,16 @@ def parse_candidate_response():
         # pprint(short_id)
         # pprint(options)
         j = int(short_id[1:])
-        if j <= 5:
-            current_question['marks'] = 1.0
-        elif j <= 10:
-            current_question['marks'] = 2.0
-        elif j <= 35:
-            current_question['marks'] = 1.0
+        if short_id[0] == 'g':
+            if j <= 5:
+                current_question['marks'] = 1.0
+            else:
+                current_question['marks'] = 2.0
         else:
-            current_question['marks'] = 2.0
+            if j <= 25:
+                current_question['marks'] = 1.0
+            else:
+                current_question['marks'] = 2.0
         data = row.find_all('td')
         question_type = data[1].text
         question_id = data[3].text
@@ -233,4 +236,36 @@ calculate_marks()
 # removing the temp variable
 for each in cres:
     del each['temp']
-print(json.dumps(cres, indent=4))
+
+if file_name == None:
+    print(json.dumps(cres, indent=4))
+else:
+    with open(file_name, 'w+') as f:
+        print(json.dumps(cres, indent=4), file=f)
+
+
+def total_marks():
+    getcontext().prec = 10
+    total_attempt = 0
+    incorrect_attempt = 0
+    negative_marks = 0
+    total_marks = 0
+    for e in cres:
+        if e['status'] == 'Not Answered':
+            continue
+        if e['obtained_marks'] <= 0:
+            negative_marks += Decimal(e['obtained_marks'])
+            incorrect_attempt += 1
+        total_marks += Decimal(e['obtained_marks'])
+        total_attempt += 1
+
+    print(f'Attempts: ({total_attempt}/{65})')
+    print(f'Incorrect Attempts: ({incorrect_attempt}/{65})')
+    print(f'Total Marks: {(total_marks + Decimal(-1)*negative_marks):.2f}')
+    print(f'Negative Marks: {negative_marks:.2f}')
+    print(f'Final Marks: {total_marks:.2f}')
+
+
+# print some info if -o is provided
+if file_name is not None:
+    total_marks()
