@@ -230,4 +230,7 @@ def calculate_marks():
 # python3 parse.py > res.json
 # TODO: maybe use file instead of stdout?
 calculate_marks()
+# removing the temp variable
+for each in cres:
+    del each['temp']
 print(json.dumps(cres, indent=4))

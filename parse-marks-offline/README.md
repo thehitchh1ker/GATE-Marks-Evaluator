@@ -1,3 +1,5 @@
+### Generated: [`res.json`](./res.json)
+
 # Requirements
 
 `python3`, `python3-pip`, can be installed by,
@@ -21,6 +23,6 @@ Alternatively, `make` and `make t` can be used for convenience.
 
 # Notes
 
-1. doesn't work right now because actual response sheet is already jumbled, so order needs to be decided with `long_id`, which isn't available in the google sheet.
+1. It's working so far. there's [`crawler.py`](./crawler.py) as well, which scrapes the website, and extracts data for answer key. (e.g. set2)
 
-2. not tested much (will do, when 1. is fixed).
+2. not tested much (will do).

@@ -6,10 +6,9 @@
         "long_id": "8232513091",
         "status": "Answered",
         "response_given": "A",
-        "temp": 101,
         "answer_key": "A",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -18,10 +17,9 @@
         "long_id": "8232513092",
         "status": "Answered",
         "response_given": "B",
-        "temp": 102,
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -30,10 +28,9 @@
         "long_id": "8232513093",
         "status": "Answered",
         "response_given": "B",
-        "temp": 103,
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -42,10 +39,9 @@
         "long_id": "8232513094",
         "status": "Answered",
         "response_given": "B",
-        "temp": 104,
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -54,10 +50,9 @@
         "long_id": "8232513095",
         "status": "Answered",
         "response_given": "C",
-        "temp": 105,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 2.0,
@@ -66,7 +61,6 @@
         "long_id": "8232513096",
         "status": "Answered",
         "response_given": "A",
-        "temp": 106,
         "answer_key": "C",
         "subject_id": "1",
         "obtained_marks": -0.6666666666666666
@@ -78,7 +72,6 @@
         "long_id": "8232513097",
         "status": "Answered",
         "response_given": "C",
-        "temp": 107,
         "answer_key": "A",
         "subject_id": "1",
         "obtained_marks": -0.6666666666666666
@@ -90,7 +83,6 @@
         "long_id": "8232513098",
         "status": "Not Answered",
         "response_given": "B",
-        "temp": 108,
         "answer_key": "C",
         "subject_id": "1",
         "obtained_marks": 0
@@ -102,10 +94,9 @@
         "long_id": "8232513099",
         "status": "Answered",
         "response_given": "A",
-        "temp": 109,
         "answer_key": "A",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -114,10 +105,9 @@
         "long_id": "8232513100",
         "status": "Answered",
         "response_given": "C",
-        "temp": 110,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": 2.0
     },
     {
         "marks": 1.0,
@@ -126,10 +116,9 @@
         "long_id": "8232513101",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10001,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -138,10 +127,9 @@
         "long_id": "8232513102",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10002,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -150,7 +138,6 @@
         "long_id": "8232513103",
         "status": "Marked For Review",
         "response_given": "C",
-        "temp": 10003,
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": -0.3333333333333333
@@ -162,10 +149,9 @@
         "long_id": "8232513104",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10004,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -174,7 +160,6 @@
         "long_id": "8232513105",
         "status": "Not Answered",
         "response_given": "135",
-        "temp": 10005,
         "answer_key": "A",
         "subject_id": "1",
         "obtained_marks": 0
@@ -186,7 +171,6 @@
         "long_id": "8232513106",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10006,
         "answer_key": "D",
         "subject_id": "1",
         "obtained_marks": -0.6666666666666666
@@ -198,10 +182,9 @@
         "long_id": "8232513107",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10007,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -210,10 +193,9 @@
         "long_id": "8232513108",
         "status": "Answered",
         "response_given": "B",
-        "temp": 10008,
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -222,10 +204,9 @@
         "long_id": "8232513109",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10009,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -234,10 +215,9 @@
         "long_id": "8232513110",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10010,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": 2.0
     },
     {
         "marks": 1.0,
@@ -246,10 +226,9 @@
         "long_id": "8232513111",
         "status": "Answered",
         "response_given": "C,B",
-        "temp": 10011,
         "answer_key": "B;C",
         "subject_id": "1",
-        "obtained_marks": 0.0
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -258,10 +237,9 @@
         "long_id": "8232513112",
         "status": "Answered",
         "response_given": "D,B,C",
-        "temp": 10012,
         "answer_key": "B;C;D",
         "subject_id": "1",
-        "obtained_marks": 0.0
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -270,7 +248,6 @@
         "long_id": "8232513113",
         "status": "Marked For Review",
         "response_given": "C,D",
-        "temp": 10013,
         "answer_key": "D",
         "subject_id": "1",
         "obtained_marks": 0.0
@@ -282,10 +259,9 @@
         "long_id": "8232513114",
         "status": "Marked For Review",
         "response_given": "D,C,A",
-        "temp": 10014,
         "answer_key": "A;C;D",
         "subject_id": "1",
-        "obtained_marks": 0.0
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -294,10 +270,9 @@
         "long_id": "8232513115",
         "status": "Answered",
         "response_given": "B,D",
-        "temp": 10015,
         "answer_key": "B;D",
         "subject_id": "1",
-        "obtained_marks": 0.0
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -306,9 +281,9 @@
         "long_id": "8232513116",
         "status": "Answered",
         "response_given": "1",
-        "temp": 10016,
         "answer_key": "1",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -317,9 +292,9 @@
         "long_id": "8232513117",
         "status": "Answered",
         "response_given": "256",
-        "temp": 10017,
         "answer_key": "256",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -328,9 +303,9 @@
         "long_id": "8232513118",
         "status": "Answered",
         "response_given": "3",
-        "temp": 10018,
         "answer_key": "3",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -339,9 +314,9 @@
         "long_id": "8232513119",
         "status": "Answered",
         "response_given": "2",
-        "temp": 10019,
         "answer_key": "2",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -350,9 +325,9 @@
         "long_id": "8232513120",
         "status": "Answered",
         "response_given": "135",
-        "temp": 10020,
         "answer_key": "80000",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 0.0
     },
     {
         "marks": 1.0,
@@ -361,9 +336,9 @@
         "long_id": "8232513121",
         "status": "Answered",
         "response_given": "696",
-        "temp": 10021,
         "answer_key": "698",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 0.0
     },
     {
         "marks": 1.0,
@@ -372,7 +347,6 @@
         "long_id": "8232513122",
         "status": "Answered",
         "response_given": "15.49",
-        "temp": 10022,
         "answer_key": "15.48:15.50",
         "subject_id": "1",
         "obtained_marks": 1.0
@@ -384,9 +358,9 @@
         "long_id": "8232513123",
         "status": "Answered",
         "response_given": "15",
-        "temp": 10023,
         "answer_key": "15",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -395,9 +369,9 @@
         "long_id": "8232513124",
         "status": "Answered",
         "response_given": "5",
-        "temp": 10024,
         "answer_key": "4",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 0.0
     },
     {
         "marks": 1.0,
@@ -406,9 +380,9 @@
         "long_id": "8232513125",
         "status": "Answered",
         "response_given": "14",
-        "temp": 10025,
         "answer_key": "19",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 0.0
     },
     {
         "marks": 1.0,
@@ -417,7 +391,6 @@
         "long_id": "8232513126",
         "status": "Not Answered",
         "response_given": "3",
-        "temp": 10026,
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": 0
@@ -429,7 +402,6 @@
         "long_id": "8232513127",
         "status": "Answered",
         "response_given": "B",
-        "temp": 10027,
         "answer_key": "A",
         "subject_id": "1",
         "obtained_marks": -0.3333333333333333
@@ -441,7 +413,6 @@
         "long_id": "8232513128",
         "status": "Not Answered",
         "response_given": "60",
-        "temp": 10028,
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": 0
@@ -453,7 +424,6 @@
         "long_id": "8232513129",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10029,
         "answer_key": "D",
         "subject_id": "1",
         "obtained_marks": -0.3333333333333333
@@ -465,10 +435,9 @@
         "long_id": "8232513130",
         "status": "Answered",
         "response_given": "D",
-        "temp": 10030,
         "answer_key": "D",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -477,10 +446,9 @@
         "long_id": "8232513131",
         "status": "Answered",
         "response_given": "B",
-        "temp": 10031,
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -489,7 +457,6 @@
         "long_id": "8232513132",
         "status": "Answered",
         "response_given": "A",
-        "temp": 10032,
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": -0.3333333333333333
@@ -501,7 +468,6 @@
         "long_id": "8232513133",
         "status": "Answered",
         "response_given": "D",
-        "temp": 10033,
         "answer_key": "A",
         "subject_id": "1",
         "obtained_marks": -0.3333333333333333
@@ -513,10 +479,9 @@
         "long_id": "8232513134",
         "status": "Answered",
         "response_given": "C",
-        "temp": 10034,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -525,10 +490,9 @@
         "long_id": "8232513135",
         "status": "Answered",
         "response_given": "D",
-        "temp": 10035,
         "answer_key": "D",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": 1.0
     },
     {
         "marks": 2.0,
@@ -537,10 +501,9 @@
         "long_id": "8232513136",
         "status": "Marked For Review",
         "response_given": "C",
-        "temp": 10036,
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -549,7 +512,6 @@
         "long_id": "8232513137",
         "status": "Not Answered",
         "response_given": "135",
-        "temp": 10037,
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": 0
@@ -561,7 +523,6 @@
         "long_id": "8232513138",
         "status": "Answered",
         "response_given": "B",
-        "temp": 10038,
         "answer_key": "A",
         "subject_id": "1",
         "obtained_marks": -0.6666666666666666
@@ -573,7 +534,6 @@
         "long_id": "8232513139",
         "status": "Marked For Review",
         "response_given": "D",
-        "temp": 10039,
         "answer_key": "C",
         "subject_id": "1",
         "obtained_marks": -0.6666666666666666
@@ -585,7 +545,6 @@
         "long_id": "8232513140",
         "status": "Answered",
         "response_given": "B,C,D",
-        "temp": 10040,
         "answer_key": "A;C;D",
         "subject_id": "1",
         "obtained_marks": 0.0
@@ -597,10 +556,9 @@
         "long_id": "8232513141",
         "status": "Marked For Review",
         "response_given": "C,B,D",
-        "temp": 10041,
         "answer_key": "B;C;D",
         "subject_id": "1",
-        "obtained_marks": 0.0
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -609,7 +567,6 @@
         "long_id": "8232513142",
         "status": "Answered",
         "response_given": "D,B",
-        "temp": 10042,
         "answer_key": "A;D",
         "subject_id": "1",
         "obtained_marks": 0.0
@@ -621,10 +578,9 @@
         "long_id": "8232513143",
         "status": "Answered",
         "response_given": "B,A,C",
-        "temp": 10043,
         "answer_key": "A;B;C",
         "subject_id": "1",
-        "obtained_marks": 0.0
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -633,7 +589,6 @@
         "long_id": "8232513144",
         "status": "Marked For Review",
         "response_given": "C,D",
-        "temp": 10044,
         "answer_key": "B;C",
         "subject_id": "1",
         "obtained_marks": 0.0
@@ -645,10 +600,9 @@
         "long_id": "8232513145",
         "status": "Answered",
         "response_given": "C,B",
-        "temp": 10045,
         "answer_key": "B;C",
         "subject_id": "1",
-        "obtained_marks": 0.0
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -657,7 +611,6 @@
         "long_id": "8232513146",
         "status": "Marked For Review",
         "response_given": "A",
-        "temp": 10046,
         "answer_key": "A;B",
         "subject_id": "1",
         "obtained_marks": 0.0
@@ -669,7 +622,6 @@
         "long_id": "8232513147",
         "status": "Answered",
         "response_given": "A,C",
-        "temp": 10047,
         "answer_key": "A;B;C",
         "subject_id": "1",
         "obtained_marks": 0.0
@@ -681,9 +633,9 @@
         "long_id": "8232513148",
         "status": "Answered",
         "response_given": "21",
-        "temp": 10048,
         "answer_key": "4108",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 0.0
     },
     {
         "marks": 2.0,
@@ -692,9 +644,9 @@
         "long_id": "8232513149",
         "status": "Marked For Review",
         "response_given": "60",
-        "temp": 10049,
         "answer_key": "60",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -703,9 +655,9 @@
         "long_id": "8232513150",
         "status": "Answered",
         "response_given": "2048",
-        "temp": 10050,
         "answer_key": "59049",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 0.0
     },
     {
         "marks": 2.0,
@@ -714,9 +666,9 @@
         "long_id": "8232513151",
         "status": "Answered",
         "response_given": "8",
-        "temp": 10051,
         "answer_key": "8",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -725,7 +677,6 @@
         "long_id": "8232513152",
         "status": "Not Answered",
         "response_given": "2048",
-        "temp": 10052,
         "answer_key": "6",
         "subject_id": "1",
         "obtained_marks": 0
@@ -737,7 +688,6 @@
         "long_id": "8232513153",
         "status": "Answered",
         "response_given": "2",
-        "temp": 10053,
         "answer_key": "1.87:1.88",
         "subject_id": "1",
         "obtained_marks": 0.0
@@ -749,7 +699,6 @@
         "long_id": "8232513154",
         "status": "Answered",
         "response_given": "135",
-        "temp": 10054,
         "answer_key": "135:136",
         "subject_id": "1",
         "obtained_marks": 2.0
@@ -761,8 +710,8 @@
         "long_id": "8232513155",
         "status": "Answered",
         "response_given": "6561",
-        "temp": 10055,
         "answer_key": "929",
-        "subject_id": "1"
+        "subject_id": "1",
+        "obtained_marks": 0.0
     }
 ]
