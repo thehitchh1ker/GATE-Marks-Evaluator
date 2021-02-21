@@ -62,7 +62,7 @@ def parse_candidate_response():
     for i, row in enumerate(candidate_response_rows):
         j = i+1
         current_question = {}
-        # TODO: Probably wrong, because response sheet is already jumbled, so order needs to be decided with long_id
+        # TODO: Probably wrong, because response sheet is already jumbled, so order needs to be decided with long_id, for now, short_id's are according to my response sheet order.
         if j <= 5:
             current_question['short_id'] = f'g{j}'
             current_question['marks'] = 1.0
@@ -85,7 +85,7 @@ def parse_candidate_response():
             response_given = question_tables[i].find_all('td')[-1].text
         else:
             response_given = data[7].text
-        # TODO: Don't know how the representation is, when a question is marked for review but not answered.
+        # TODO: Don't know how the representation is, when a question is marked for review but not answered
         current_question['type'] = question_type
         current_question['long_id'] = question_id
         current_question['status'] = status
@@ -162,15 +162,12 @@ for i, q in enumerate(cres):
     if q['type'] == 'MCQ':
         converted = str((ord(q['answer_key']) - ord('A')) + 1)
         cres[i]['obtained_marks'] = q['marks'] if q['response_given'] == converted else (
-            (-0.33)*q['marks'])
+            (-1.0/3.0)*q['marks'])
     elif q['type'] == 'MSQ':
         all_ans = [str((ord(a) - ord('A')) + 1)
                    for a in q['answer_key'].split(';')]
         all_chosen = [str(a) for a in q['response_given'].split(',')]
-        correct = True
-        for ee in all_ans:
-            if ee not in all_chosen:
-                correct = False
+        correct = sorted(all_ans) == sorted(all_chosen)
         cres[i]['obtained_marks'] = float(q['marks']) if correct else 0.0
     elif q['type'] == 'NAT':
         ans_range = q['answer_key'].split(':')
@@ -182,7 +179,7 @@ for i, q in enumerate(cres):
         else:
             res_given = Decimal(q['response_given'])
             correct = res_given >= ans_range[0] and res_given <= ans_range[1]
-            cres[i]['obtained_marks'] = q['marks'] if correct else 0.0
+            cres[i]['obtained_marks'] = float(q['marks']) if correct else 0.0
 
 # here, cres hopefully contains all the required parameters
 
