@@ -82,7 +82,7 @@
         "type": "MCQ",
         "long_id": "8232513098",
         "status": "Not Answered",
-        "response_given": "B",
+        "response_given": " -- ",
         "answer_key": "C",
         "subject_id": "1",
         "obtained_marks": 0
@@ -159,13 +159,13 @@
         "type": "MCQ",
         "long_id": "8232513105",
         "status": "Not Answered",
-        "response_given": "135",
+        "response_given": " -- ",
         "answer_key": "A",
         "subject_id": "1",
         "obtained_marks": 0
     },
     {
-        "marks": 2.0,
+        "marks": 1.0,
         "short_id": "c6",
         "type": "MCQ",
         "long_id": "8232513106",
@@ -173,10 +173,10 @@
         "response_given": "C",
         "answer_key": "D",
         "subject_id": "1",
-        "obtained_marks": -0.6666666666666666
+        "obtained_marks": -0.3333333333333333
     },
     {
-        "marks": 2.0,
+        "marks": 1.0,
         "short_id": "c7",
         "type": "MCQ",
         "long_id": "8232513107",
@@ -184,10 +184,10 @@
         "response_given": "C",
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": 2.0
+        "obtained_marks": 1.0
     },
     {
-        "marks": 2.0,
+        "marks": 1.0,
         "short_id": "c8",
         "type": "MCQ",
         "long_id": "8232513108",
@@ -195,10 +195,10 @@
         "response_given": "B",
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": 2.0
+        "obtained_marks": 1.0
     },
     {
-        "marks": 2.0,
+        "marks": 1.0,
         "short_id": "c9",
         "type": "MCQ",
         "long_id": "8232513109",
@@ -206,10 +206,10 @@
         "response_given": "C",
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": 2.0
+        "obtained_marks": 1.0
     },
     {
-        "marks": 2.0,
+        "marks": 1.0,
         "short_id": "c10",
         "type": "MCQ",
         "long_id": "8232513110",
@@ -217,7 +217,7 @@
         "response_given": "C",
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": 2.0
+        "obtained_marks": 1.0
     },
     {
         "marks": 1.0,
@@ -385,18 +385,18 @@
         "obtained_marks": 0.0
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c26",
         "type": "MCQ",
         "long_id": "8232513126",
         "status": "Not Answered",
-        "response_given": "3",
+        "response_given": " -- ",
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": 0
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c27",
         "type": "MCQ",
         "long_id": "8232513127",
@@ -404,21 +404,21 @@
         "response_given": "B",
         "answer_key": "A",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": -0.6666666666666666
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c28",
         "type": "MCQ",
         "long_id": "8232513128",
         "status": "Not Answered",
-        "response_given": "60",
+        "response_given": " -- ",
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": 0
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c29",
         "type": "MCQ",
         "long_id": "8232513129",
@@ -426,10 +426,10 @@
         "response_given": "C",
         "answer_key": "D",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": -0.6666666666666666
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c30",
         "type": "MCQ",
         "long_id": "8232513130",
@@ -437,10 +437,10 @@
         "response_given": "D",
         "answer_key": "D",
         "subject_id": "1",
-        "obtained_marks": 1.0
+        "obtained_marks": 2.0
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c31",
         "type": "MCQ",
         "long_id": "8232513131",
@@ -448,10 +448,10 @@
         "response_given": "B",
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": 1.0
+        "obtained_marks": 2.0
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c32",
         "type": "MCQ",
         "long_id": "8232513132",
@@ -459,10 +459,10 @@
         "response_given": "A",
         "answer_key": "B",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": -0.6666666666666666
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c33",
         "type": "MCQ",
         "long_id": "8232513133",
@@ -470,10 +470,10 @@
         "response_given": "D",
         "answer_key": "A",
         "subject_id": "1",
-        "obtained_marks": -0.3333333333333333
+        "obtained_marks": -0.6666666666666666
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c34",
         "type": "MCQ",
         "long_id": "8232513134",
@@ -481,10 +481,10 @@
         "response_given": "C",
         "answer_key": "C",
         "subject_id": "1",
-        "obtained_marks": 1.0
+        "obtained_marks": 2.0
     },
     {
-        "marks": 1.0,
+        "marks": 2.0,
         "short_id": "c35",
         "type": "MCQ",
         "long_id": "8232513135",
@@ -492,7 +492,7 @@
         "response_given": "D",
         "answer_key": "D",
         "subject_id": "1",
-        "obtained_marks": 1.0
+        "obtained_marks": 2.0
     },
     {
         "marks": 2.0,
@@ -511,7 +511,7 @@
         "type": "MCQ",
         "long_id": "8232513137",
         "status": "Not Answered",
-        "response_given": "135",
+        "response_given": " -- ",
         "answer_key": "B",
         "subject_id": "1",
         "obtained_marks": 0
@@ -676,7 +676,7 @@
         "type": "NAT",
         "long_id": "8232513152",
         "status": "Not Answered",
-        "response_given": "2048",
+        "response_given": " -- ",
         "answer_key": "6",
         "subject_id": "1",
         "obtained_marks": 0

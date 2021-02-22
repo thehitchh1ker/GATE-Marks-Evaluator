@@ -114,9 +114,11 @@ def parse_candidate_response():
         status = str(data[5].text)
 
         # in case of NAT questions, the answer's position is changed, so we have to ADAPT as well.
-        if status != 'Not Answered':
-            if question_type == 'NAT':
-                response_given = question_tables[i].find_all('td')[-1].text
+        if question_type == 'NAT':
+            response_given = question_tables[i].find_all('td')[-1].text
+        else:
+            if status == 'Not Answered' or data[7].text == ' -- ':
+                response_given = ' -- '
             else:
                 response_given_raw = [
                     int(a)-1 for a in data[7].text.split(',')]
@@ -124,7 +126,7 @@ def parse_candidate_response():
                 response_given = ','.join(response_given_raw)
         # pprint(f'choice {response_given}')
         # pprint('-----')
-        # TODO: Don't know how the representation is, when a question is marked for review but not answered
+        # TODO: Don't know how the representation is, when a question is marked for review but not answered, for now, assuming it will have ' -- ' as response
         current_question['short_id'] = short_id
         current_question['type'] = question_type
         current_question['long_id'] = question_id
@@ -203,7 +205,7 @@ def get_precision(s):
 # calculating obtained_marks for each individual question, and storing it as cres
 def calculate_marks():
     for i, q in enumerate(cres):
-        if q['status'] == 'Not Answered':
+        if q['status'] == 'Not Answered' or q['response_given'] == '--':
             cres[i]['obtained_marks'] = 0
             continue
         if q['type'] == 'MCQ':
@@ -251,7 +253,7 @@ def total_marks():
     negative_marks = 0
     total_marks = 0
     for e in cres:
-        if e['status'] == 'Not Answered':
+        if e['status'] == 'Not Answered' or e['response_given'] == ' -- ':
             continue
         if e['obtained_marks'] <= 0:
             negative_marks += Decimal(e['obtained_marks'])
