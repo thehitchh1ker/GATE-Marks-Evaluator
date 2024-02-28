@@ -161,14 +161,15 @@ function decorate_remark(remark) {
 
 function get_college_data() {
 	var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Vgtr932MXaDIrpCfrtZkmIFZzNhAoohApXqN3AtSLK0/pubhtml?gid=0&single=true';
-	Tabletop.init({
-		key: public_spreadsheet_url,
-		callback: function(data, tabletop) {
-			console.log(data);
+	Papa.parse(public_spreadsheet_url, {
+		download: true,
+		header: true,
+		complete: function(results) {
+			var data = results.data
+			console.log(data)
 			window.college_data = data;
 			show_page();
-		},
-		simpleSheet: true
+		}
 	});
 }
 
