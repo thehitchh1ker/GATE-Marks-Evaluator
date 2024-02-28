@@ -137,8 +137,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	
 
-	<!-- https://github.com/jsoma/tabletop -->
-	<script src="ScoreToColleges/tabletop.js"></script>
+	<!-- https://github.com/mholt/PapaParse -->
+	<script src="ScoreToColleges/papaparse.min.js"></script>
 
 	<script src="ScoreToColleges/ScoreToColleges.js"></script>
 </body>
